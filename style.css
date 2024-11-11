@@ -12,7 +12,6 @@ body {
 }
 
 .header_section {
-    background: url('images/background-img1.avif') no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 80%;
@@ -39,6 +38,12 @@ body {
     100% {
         opacity: 1;
     }
+}
+
+.logo{
+	position: relative;
+	margin-top: 150px;
+	margin-left: -90px;
 }
 
 nav{
@@ -78,7 +83,7 @@ ul li a:hover{
     align-items: start;
     position: relative;
     top: 150px;
-    margin-left: 150px;
+    margin-left: 50px;
 }
 
 .client_info h1{
@@ -97,6 +102,7 @@ ul li a:hover{
     color: #fff;
     width: 500px;
     line-height: 30px;
+	margin: 10px;
 }
 
 .icon{
@@ -122,7 +128,7 @@ button{
     height: 40px;
     background-color: transparent;
     color: #fff;
-    margin: 15px;
+    margin: 10px;
 	cursor: pointer;
 	border: 2px solid #fff;
 	box-shadow: 0px 0px 0 rgb(0, 179, 134);
