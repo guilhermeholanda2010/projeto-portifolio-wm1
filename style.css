@@ -40,10 +40,11 @@ body {
     }
 }
 
-.logo{
-	position: relative;
+.logo img {
+    width: 200px;
+    max-width: 100%;
+	border-radius: 50%;
 	margin-top: 150px;
-	margin-left: -90px;
 }
 
 nav{
@@ -80,7 +81,7 @@ ul li a:hover{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: start;
+    align-items: center;
     position: relative;
     top: 150px;
     margin-left: 50px;
@@ -89,13 +90,13 @@ ul li a:hover{
 .client_info h1{
     color: #fff;
     font-size: 30px;
-    margin: 10px;
+	margin-bottom: 10px;
 }
 
 .client_info h2{
     color: #fff;
     font-size: 50px;
-    margin: 10px;
+	margin-bottom: 10px;
 }
 
 .client_info p{
