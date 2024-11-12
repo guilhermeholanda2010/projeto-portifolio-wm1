@@ -5,7 +5,7 @@ readMoreButton.addEventListener("click", () => {
     const moreInfo = document.createElement("p");
     moreInfo.classList.add("more-info");
     moreInfo.innerHTML = `
-        Tenho uma sólida formação em desenvolvimento de sistemas, focada na construção de aplicações eficientes e bem estruturadas. Sou especializado em Java, Node.js, AngularJS e sempre estou buscando as melhores práticas de Clean Code.
+        Tenho uma sólida formação em desenvolvimento de sistemas, focada na construção de aplicações eficientes e bem estruturadas. Sou especializado em projetos extensos utilizando Node.js, AngularJS, ReactJs, postgreSQL. Tecnologias como Sequelize, autenticadores como JWT e bcrypt, dentre outras ferramentas de validação como Yup e Zod. Atualmente atuo na AmigoTech, uma empresa aplicada a facilitar a jornada de saúde de médicos e clínicas.
     `;
 
     if (!document.querySelector(".more-info")) {
@@ -39,3 +39,7 @@ bars.addEventListener("click", () => {
     menu.classList.toggle("active");
     bars.classList.toggle("active");
 });
+
+const abrirJogoSenha = () => {
+    window.location.href = 'jogo-senha/jogo-senha.html';
+}

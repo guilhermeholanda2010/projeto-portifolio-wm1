@@ -158,3 +158,31 @@ button:hover{
 	box-shadow: 5px 5px 0 rgb(0, 179, 134);
 }
 
+.hidden {
+    display: none;
+}
+
+#jogoSenha {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+#guessInput {
+    padding: 8px;
+    font-size: 16px;
+}
+#guessButton, #revealButton {
+    padding: 8px;
+    margin: 10px;
+    cursor: pointer;
+}
+#attemptsList {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin-top: 20px;
+}
+#attemptsList li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
